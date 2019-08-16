@@ -1,0 +1,20 @@
+Started by user [8mha:////4DQuQLh+/cpHphuz8nWl+i3/iEky52fRqkgDASP6sLfOAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyFEgZu/dLi1CL9xJTczDwAmiHelsAAAAA=[0mDanilo Caetano Matias dos Santos
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/backup-to-aws
+[SSH] script:
+MYSQL_HOST="db_host"
+AWS_SECRET_KEY=**********
+MYSQL_PASSWORD=**********
+DATABASE_NAME="testdb"
+AWS_BUCKET_NAME="jenkins-mysql-backup-danilo"
+
+/tmp/script.sh $MYSQL_HOST $MYSQL_PASSWORD $DATABASE_NAME $AWS_SECRET_KEY $AWS_BUCKET_NAME
+
+[SSH] executing...
+Uploading your db-15-20-39.sql backup
+Completed 1.9 KiB/1.9 KiB (2.4 KiB/s) with 1 file(s) remainingupload: ../../tmp/db-15-20-39.sql to s3://jenkins-mysql-backup-danilo/db-15-20-39.sql
+
+[SSH] completed
+[SSH] exit-status: 0
+
+Finished: SUCCESS

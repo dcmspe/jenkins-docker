@@ -1,0 +1,8 @@
+Started by user [8mha:////4DQuQLh+/cpHphuz8nWl+i3/iEky52fRqkgDASP6sLfOAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyFEgZu/dLi1CL9xJTczDwAmiHelsAAAAA=[0mDanilo Caetano Matias dos Santos
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/my-first-job
+[my-first-job] $ /bin/sh -xe /tmp/jenkins477630337555926122.sh
++ ./tmp/script.sh Danilo Caetano
+/tmp/jenkins477630337555926122.sh: 2: /tmp/jenkins477630337555926122.sh: ./tmp/script.sh: not found
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE
