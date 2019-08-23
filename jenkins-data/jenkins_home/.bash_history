@@ -124,3 +124,37 @@ exit
 cd ~/ansible/
 ansible-playbook -i hosts play.yml
 exit
+ssh web
+ll
+ls -la
+cd
+cd ansible/
+cat hosts 
+ansible -m ping -i hosts
+ansible -m ping -i hosts web1
+ansible -m ping -i hosts test
+ansible -m ping -i hosts test1
+ansible -m ping -i hosts all
+exit
+cd
+cd ansible/
+ls -la
+cat table.j2 
+vi table.j2 
+cat people.yml 
+ansible-playbook -i hosts people.yml
+vim people.yml 
+vi people.yml 
+exit
+ansible-playbook -i hosts people.yml
+cd
+cd ansible/
+ansible-playbook -i hosts people.yml
+ansible-playbook -i hosts people.yml
+exit
+cd 
+cd ansible/
+ansible-playbook -i hosts people.yml - 
+ansible-playbook -i hosts people.yml -e "PEOPLE_AGE=30"
+ansible-playbook -i hosts people.yml -e "PEOPLE_AGE=29"
+exit

@@ -1,0 +1,13 @@
+Started by user [8mha:////4DQuQLh+/cpHphuz8nWl+i3/iEky52fRqkgDASP6sLfOAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyFEgZu/dLi1CL9xJTczDwAmiHelsAAAAA=[0mDanilo Caetano Matias dos Santos
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/ENV
+[ENV] $ /bin/sh -xe /tmp/jenkins8538481111553988900.sh
++ echo This is the build number for this 1
+This is the build number for this 1
++ echo The build id is: 1
+The build id is: 1
++ echo Build URL is http://10.0.1.170:8080/job/ENV/1/
+Build URL is http://10.0.1.170:8080/job/ENV/1/
++ echo From job name: ENV
+From job name: ENV
+Finished: SUCCESS
