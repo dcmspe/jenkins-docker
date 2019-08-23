@@ -313,3 +313,83 @@ docker exec -ti jenkins bash
 docker exec -ti db bash
 cd jenkins-ansible/
 exit
+cd jenkins-data/
+ls -la
+cd ..
+ll
+git init
+yum install git
+sudo yum install git
+git 
+ll
+git init
+git add .
+git status
+commit
+git commit
+git status
+git commit
+git add .bash_history
+git add .bash_logout
+git add .bash_profile
+git add .bashrc
+git add jenkins-data/
+git add *
+sudo git add *
+cd jenkins-data/jenkins-ansible/
+cat people.txt 
+ls
+vi put.sh
+chmod +x put.sh 
+./put.sh 
+vi put.sh
+./put.sh 
+vi put.sh
+./put.sh 
+vi put.sh
+./put.sh 
+vi put.sh 
+shuf -i 20-25
+shuf -i 20-25 -n 1
+shuf -i 20-80 -n 1
+vi put.sh 
+vi put.sh
+ls -la
+docker cp put.sh db:/tmp/
+docker exec -ti db bash
+vi put.sh
+docker cp put.sh db:/tmp/
+vi put.sh
+docker cp put.sh db:/tmp/
+exit
+cd jenkins-data/
+ls -la
+docker-compose 
+cat docker-compose.yml 
+exit
+docker exec -ti web bash
+exit
+cd jenkins-data/
+ls -la
+docker ps
+docker-compose up -d
+docker exec -it db bash
+ls -la
+vi docker-compose.yml 
+cd jenkins-ansible/
+ls -la
+vi table.j2 
+cat table.j2 
+cp table.j2 ../jenkins_home/ansible/
+docker exec -ti jenkins bash
+ls -ka
+cd web
+ls -la
+cd ..
+cd jenkins_home/
+ls -la
+cd ansible/
+clar
+clear
+vi people.yml 
+exit
